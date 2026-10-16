@@ -1,0 +1,7 @@
+{
+  "name": "com.tdgame.core",
+  "version": "0.1.0",
+  "displayName": "TD Core (game logic)",
+  "description": "Engine-free simulation: grid, pathing, towers, enemies, waves, economy and the adaptation engine.",
+  "unity": "6000.0"
+}

@@ -1,0 +1,49 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+.utmp/
+*.tmp
+
+# Build artifacts / exports
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# IDE / generated project files
+.vs/
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.csproj
+!Tools/**/*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+
+# dotnet tools (core tests / headless sim)
+Tools/**/bin/
+Tools/**/obj/
+
+# OS
+.DS_Store
+Thumbs.db

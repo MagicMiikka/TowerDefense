@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Core tests",
+            "type": "shell",
+            "command": "dotnet run -c Release",
+            "options": { "cwd": "${workspaceFolder}/Tools/TD.Core.Tests" },
+            "group": { "kind": "test", "isDefault": true },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Balance sim",
+            "type": "shell",
+            "command": "dotnet run -c Release -- 50",
+            "options": { "cwd": "${workspaceFolder}/Tools/TD.Sim" },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Balance sim (with run log)",
+            "type": "shell",
+            "command": "dotnet run -c Release -- 20 --log",
+            "options": { "cwd": "${workspaceFolder}/Tools/TD.Sim" },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
